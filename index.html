@@ -1,18 +1,237 @@
+<!DOCTYPE html>
 <html>
 <head>
-body{
-width:960px;        //限定网页的宽度
-}
-#div1{
-width:200px;
-height:600px;
-margin:0 auto;     
-boreder:1px solid #f00     //加个边框利于观察
-}
+    <title>My Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="stylesheets/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<div id='div1'>
-我会居中
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-logo"><a href="#">LOGO</a></div>
+        <ul class="navbar-right">
+            <li><a href="#">Agents</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign up</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="header-search">
+    <div class="container header-intro">
+        <span class="search-title">Relax, Finding An Agent Just Got Easier</span>
+        <span class="search-intro">Receive propsals from best agents for free</span>
+        <form class="form-submit" id="submit">
+            <div class="input-group">
+                <input value="" type="text"/>
+                <button type="button" id="submit-btn">SEARCH</button>
+            </div>
+        </form>
+    </div>
+</header>
+
+<section>
+    <div class="container product-list">
+        <ul>
+            <li>
+                <strong>20,000</strong>
+                Agents
+            </li>
+            <li>
+                <strong>1,723,000</strong>
+                Transactions</span>
+            </li>
+            <li>
+                <strong>17,000</strong>
+                Agencies
+            </li>
+            <li>
+                <strong>10,200</strong>
+                Suburbs
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <div class="container how-work">
+        <h3>HOW IT WORKS</h3>
+		 <ul>
+            <li>
+                <span>1</span>
+                
+            </li>
+            <li>
+                <span>2</span>
+                
+            </li>
+            <li>
+                <span>3</span>
+                
+            </li>
+        </ul>
+		 <ul>
+            <li>
+                
+                <img src="images/card.png"/>
+                
+            </li>
+            <li>
+                
+                <img src="images/pencil.png"/>
+                
+            </li>
+            <li>
+                
+                <img src="images/users.png"/>
+                
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <h4>Compare</h4>
+                <p>
+                    I will try, and try, and try again. Each obstacle I will consider as a mere detour to my goal and a challenge to my profession. I will persist and develop my skills as the mariner develops his, by learning to ride out the wrath of each storm.
+					</p>
+            </li>
+            <li>
+                
+                <h4 class="work-compare">
+                    Receive Proposals</h4>
+                <p>
+                    Take pride in your accomplishments, as they are stepping stones to your dreams. Understand that you may make mistakes, but don't let them discourage you. Value your capabilities and talents for they are what make you truly unique. The greatest gifts in life are not purchased, but acquired through hard work and determination. 
+                </p>
+            </li>
+            <li>
+               
+                <h4 class="work-compare">Sell with the Best</h4>
+
+                <p>
+				Nor will I allow yesterday's success to lull me into today's complacency, for this is the great foundation of failure. I will forget the happenings of the day that is gone, whether they were good or bad, and greet the new sun with confidence that this will be the best day of my life.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<hr>
+
+<section>
+    <div class="container why-choose">
+        <h3>WHY CHOOSE US?</h3>
+        <ul>
+            <li>
+                <img src="images/icon-check.png"/>
+                <h4>浏览器</h4>
+
+                <p>“浏览器内核”主要指渲染引擎(Rendering Engine)，负责解析网页语法(如HTML、JavaScript)并渲染、展示网页。
+				因此，所谓的浏览器内核通常也就是指浏览器所采用的渲染引擎，渲染引擎决定了浏览器如何显示网页的内容以及页面的格式信息。
+				不同的浏览器内核对网页编写语法的解析也有所不同，因此同一网页在不同的内核浏览器里的渲染、展示效果也可能不同.
+                </p>
+            </li>
+            <li>
+                <img src="images/icon-tag.png"/>
+                <h4>芯片组</h4>
+
+                <p>芯片组（Chipset）是主板的核心组成部分，如果说中央处理器（CPU）是整个电脑系统的心脏，那么芯片组将是整个身体的躯干。
+				在电脑界称设计芯片组的厂家为Core Logic，Core的中文意义是核心或中心，光从字面的意义就足以看出其重要性。
+				对于主板而言，芯片组几乎决定了这块主板的功能，进而影响到整个电脑系统性能的发挥，芯片组是主板的灵魂。
+				芯片组性能的优劣，决定了主板性能的好坏与级别的高低。这是因为目前CPU的型号与种类繁多、功能特点不一，如果芯片组不能与CPU良好地协同工作，将严重地影响计算机的整体性能甚至不能正常工作
+                </p>
+            </li>
+            <li>
+                <img src="images/icon-cycle.png"/>
+                <h4>云计算</h4>
+                <p>
+					云计算（cloud computing）是基于互联网的相关服务的增加、使用和交付模式，通常涉及通过互联网来提供动态易扩展且经常是虚拟化
+					的资源。云是网络、互联网的一种比喻说法。过去在图中往往用云来表示电信网，后来也用来表示互联网和底层基础设施的抽象。
+					狭义云计算指IT基础设施的交付和使用模式，指通过网络以按需、易扩展的方式获得所需资源；广义云计算指服务的交付和使用模式，
+					指通过网络以按需、易扩展的方式获得所需服务。
+				</p>
+            </li>
+            <li>
+                <img src="images/icon-user.png"/>
+                <h4>回归分析</h4>
+                <p>回归分析是一种预测性的建模技术，它研究的是因变量（目标）和自变量（预测器）之间的关系。这种技术通常用于预测分析，
+				时间序列模型以及发现变量之间的因果关系。例如，司机的鲁莽驾驶与道路交通事故数量之间的关系，最好的研究方法就是回归。
+
+回归分析是建模和分析数据的重要工具。在这里，我们使用曲线/线来拟合这些数据点，在这种方式下，从曲线或线到数据点的距离差异最小。我会在接下来的部分详细解释这一点。
+                </p>
+            </li>
+            
+        </ul>
+    </div>
+</section>
+<hr>
+<section>
+    <div class="container switch">
+        <ul>
+            <li>Testimonials</li>
+            <li>Recent Feedbacks</li>
+        </ul>
+        <div class="switch-photo">
+            <p>Like glitter's raining on me. You like a shot of pure gold I think I'm 'bout to explode like glitter's
+                raining on me. You like a shot of pure gold I think I'm 'bout to explode</p>
+            <ul>
+                <li>
+                    <img src="images/face1.jpg">
+                </li>
+                <li>
+                    <img src="images/face2.jpg">
+                </li>
+                <li>
+                    <img src="images/face3.jpg">
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer-search">
+    <div class="container search">
+        <form class="form-submit" id="footer-submit">
+            <div class="input-group">
+                <label>Find An Agent</label>
+                <input value="" type="text"/>
+                <button type="button" id="footer-submit-btn">SEARCH</button>
+            </div>
+        </form>
+    </div>
+</section>
+<div class="container">
+<footer class="footer-fixed-left">
+    <nav>
+        <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Disclaimer</a></li>
+        </ul>
+		
+    </nav>
+	
+</footer>
+<footer class="footer-fixed-right">
+    
+	<nav>
+        <ul>
+            
+			<li><img src="images/fei.jpg"></li>
+			<li><img src="images/fa.jpg"></li>
+        </ul>
+		
+    </nav>
+</footer>
 </div>
+
 </body>
 </html>
