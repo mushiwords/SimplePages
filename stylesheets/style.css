@@ -215,7 +215,7 @@ header {
 
 .form-submit button:hover {
     background-color: aquamarine;
-    color: black; 
+    color: black;
 }
 
 .form-submit input {
@@ -428,12 +428,14 @@ ul {
 .switch ul {
     margin: 0 auto;
     width: 36%;
+
 }
 
 .switch > ul {
     width: 36%;
     border: solid 1px #b0b7b2;
     border-radius: 5px;
+    height: inherit;
 }
 
 .switch > ul li {
@@ -444,27 +446,23 @@ ul {
 
 .switch > ul li:first-child {
     color: black;
-    background-color: #150240;
-   
+    background-color:inherit;
+   padding: 21px 0px;
+
 }
 
 .switch-photo img {
     padding: 10px;
     width: 120px;
     height: 120px;
-    border: 1px solid #F4F3F1;
-    border-radius: 50%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: 0.5;
+
+
 }
 
 .switch-photo li.over img,
 .switch-photo li:hover img {
     padding: 0;
-    -webkit-filter: none;
-    filter: none;
-    opacity: 1;
+
 }
 
 .switch-photo {
@@ -538,7 +536,7 @@ footer {
 
 footer ul li.over a:hover,
 footer ul li:hover a:hover {
- 
+
     color: blue;
 }
 .footer-fixed-left {
